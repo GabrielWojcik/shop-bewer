@@ -73,7 +73,7 @@ const SignInForm = () => {
 
   return (
     <>
-      <Card>
+      <Card className="w-full">
         <CardHeader>
           <CardTitle>Entrar</CardTitle>
           <CardDescription>Faça login para continuar.</CardDescription>
@@ -115,7 +115,7 @@ const SignInForm = () => {
               />
             </CardContent>
             <CardFooter>
-              <Button type="submit">Submit</Button>
+              <Button type="submit">Entrar</Button>
             </CardFooter>
           </form>
         </Form>
