@@ -117,7 +117,7 @@ export const productVariantRelatations = relations(
   productVariantTable,
   ({ one }) => {
     return {
-      category: one(productTable, {
+      product: one(productTable, {
         fields: [productVariantTable.productId],
         references: [productTable.id],
       }),
